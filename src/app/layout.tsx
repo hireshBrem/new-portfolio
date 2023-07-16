@@ -30,7 +30,7 @@ export default function RootLayout({
         <body className={`${lato.variable} ${inter.variable} bg-gray-900`}>
             <Navbar />
             <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
-                <input type="text" name="name" />
+                <input type="text" name="subject" />
                 <input type="email" name="email" />
                 <textarea name="message"></textarea>
             </form>
