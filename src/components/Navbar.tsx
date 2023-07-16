@@ -5,21 +5,17 @@ import { useState } from "react";
 
 export default function Navbar() {
     const [navbarOpen, setNavbarOpen] = useState(false)
-
-    function scrollToSection(id: string) {
-        document.getElementById(id)?.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"}) 
-    }
-
+    
     return(
 <nav className="bg-gray-900 font-lato sticky w-full z-20 top-0 left-0">
   <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
     <div className="items-center hidden w-full md:inline-flex">
         <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 text-lg">
-            <Link href="/#" className="/block md:hover:text-sky-500 py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0">About</Link>
-            <Link href="/#ideas" className="/block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500 md:p-0 text-white">Ideas</Link>
-            <Link href="/#projects" className="/block md:hover:text-sky-500 py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0">Projects</Link>
-            <Link href="/#services" className="/block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500 md:p-0 text-white">Services</Link>
-            <Link href="/#testimonials" className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500 md:p-0 text-white">Testimonials</Link>
+            <a href="/#" className="/block md:hover:text-sky-500 py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0">About</a>
+            <a href="/#ideas" className="/block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500 md:p-0 text-white">Ideas</a>
+            <a href="/#projects" className="/block md:hover:text-sky-500 py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0">Projects</a>
+            <a href="/#services" className="/block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500 md:p-0 text-white">Services</a>
+            <a href="/#testimonials" className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500 md:p-0 text-white">Testimonials</a>
         </ul>
     </div>
     <div className="flex justify-between">
@@ -36,11 +32,11 @@ export default function Navbar() {
         navbarOpen ===true ? 
         <div className="absolute md:hidden rounded-r-md w-[40%]  bg-gradient-to-tr from-indigo-500 from-10 to-sky-500">
             <ul>
-                <Link href="/#about" className="block py-2 pl-3 pr-4 text-white rounded ">About</Link>
-                <Link href="/#ideas" className="block py-2 pl-3 pr-4 rounded text-white">Ideas</Link>
-                <Link href="/#projects" className="block py-2 pl-3 pr-4 rounded text-white">Projects</Link>
-                <Link href="/#services" className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500 md:p-0 text-white">Services</Link>
-                <Link href="/#testimonials" className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500 md:p-0 text-white">Testimonials</Link>
+                <a href="/#about" className="block py-2 pl-3 pr-4 text-white rounded ">About</a>
+                <a href="/#ideas" className="block py-2 pl-3 pr-4 rounded text-white">Ideas</a>
+                <a href="/#projects" className="block py-2 pl-3 pr-4 rounded text-white">Projects</a>
+                <a href="/#services" className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500 md:p-0 text-white">Services</a>
+                <a href="/#testimonials" className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500 md:p-0 text-white">Testimonials</a>
             </ul>
 
         </div>
