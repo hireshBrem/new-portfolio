@@ -117,7 +117,7 @@ export default function Home() {
                     <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Hear what other people say!</p>
                 </div> 
                 <div className="flex flex-wrap justify-center">
-                    <figure className="flex flex-col w-[50%] justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
+                    <figure className="flex flex-col w-[90%] md:w-[50%] justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
                         <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
                             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Custom Website</h3>
                             <p className="my-4">"Absolutely Brilliant, I will be recommending him to my friends!."</p>

@@ -35,8 +35,8 @@ export default function Navbar() {
                 <a href="/#about" className="block py-2 pl-3 pr-4 text-white rounded ">About</a>
                 <a href="/#ideas" className="block py-2 pl-3 pr-4 rounded text-white">Ideas</a>
                 <a href="/#projects" className="block py-2 pl-3 pr-4 rounded text-white">Projects</a>
-                <a href="/#services" className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500 md:p-0 text-white">Services</a>
-                <a href="/#testimonials" className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500 md:p-0 text-white">Testimonials</a>
+                <a href="/#services" className="block py-2 pl-3 pr-4 rounded text-white">Services</a>
+                <a href="/#testimonials" className="block py-2 pl-3 pr-4 rounded text-white">Testimonials</a>
             </ul>
 
         </div>
