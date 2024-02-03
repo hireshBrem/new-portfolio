@@ -23,12 +23,20 @@ export default function Home() {
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Ideas</h2>
                 <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">I have an idea, and I build it!</p>
             </div>
+            <div className='flex flex-row space-x-2 flex-shrink'>
             <a target='_blank' href="https://booklabbeta.vercel.app" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <div className="flex flex-col justify-between p-4 leading-normal">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">BookLab</h5>
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Collaborative book reading platform, where you could read and write collaboratively. Ask questions and explore topics like never before.</p>
                 </div>
             </a>
+            <a target='_blank' href="https://preneur2023.vercel.app/" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <div className="flex flex-col justify-between p-4 leading-normal">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Preneur</h5>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Let Preneur help you generate and validate your startup ideas. Build your own community of early adopters.</p>
+                </div>
+            </a>
+            </div>
         </div>
         
         <div id="projects" className='flex flex-row flex-wrap justify-center mt-40'>
@@ -127,6 +135,19 @@ export default function Home() {
                             <div className="space-y-0.5 font-medium dark:text-white text-left">
                                 <div>@knowledgequeen</div>
                                 <div className="text-sm font-light text-gray-500 dark:text-gray-400">Client on Fiverr</div>
+                            </div>
+                        </figcaption>    
+                    </figure>
+                    <figure className="flex flex-col w-[90%] md:w-[50%] justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
+                        <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Custom Website</h3>
+                            <p className="my-4">"I recently had a website created by an exceptionally talented developer. The website not only met but exceeded my expectations, showcasing a perfect blend of design and functionality."</p>
+                        </blockquote>
+                        <figcaption className="flex justify-center items-center space-x-3">
+                            <Image className="rounded-full" src={fiverrImage} width={60} height={60} alt="profile picture" />
+                            <div className="space-y-0.5 font-medium dark:text-white text-left">
+                                <div>@anselimmigration</div>
+                                <div className="text-sm font-light text-gray-500 dark:text-gray-400">Small business</div>
                             </div>
                         </figcaption>    
                     </figure>
